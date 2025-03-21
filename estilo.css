@@ -40,7 +40,7 @@ nav > div {
   border-radius: 8px;
 }
 
-div > a{
+nav > div > a{
   color: black;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -59,19 +59,19 @@ div > a{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.Estatisticas {
-  background-color: white
-}
-
 .pagina {
   background-color: #1D1257;
-  height: 700px;
+  min-height: 150px;
   width: 1000px;
   margin: auto;
+  border-radius: 10px;
+  position: relative;
 }
 
 .titulo{
   background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .titulo > h1{
@@ -79,5 +79,90 @@ div > a{
   margin: 0;
   font-size: 38px;
   font-weight:lighter;
+  margin-left: 50px;
   text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.minimenu {
+  background-color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.minimenu > h2 {
+  margin-left: 25px;
+}
+
+.minimenu > button {
+  margin-left: auto;
+  margin-right: 25px;
+  border: none;
+  width: 60px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.minimenu > button:hover{
+  background-color: rgba(144, 171, 196, 0.581);
+}
+
+.adicionar{
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  background-color: #39D546;
+  color: white;
+  font-size: 50px;
+}
+
+.adicionar:hover{
+  background-color: #279230;
+  cursor: pointer;
+}
+
+.PaginaDoCaixa{
+  background-color: #1D1257;
+  height: 98vh;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.BotaoDeIniciarCarrinho{
+  width: 400px;
+  height: 180px;
+  position: absolute;
+  border-radius: 10px;
+  border: 5px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #39D546;
+  color: black;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.BotaoDeIniciarCarrinho:hover{
+  background-color: #279230;
+}
+
+.PaginaDoCarrinho{
+  background-color: #BCCAF8;
+  height: 98vh;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
 }
