@@ -213,6 +213,7 @@ nav > div > a{
 .CamposeBotoes{
   flex-direction: column;
   display: flex;
+  width: 600px;
 }
 
 .BotaoDeAdicionarNoCarrinho{
@@ -247,3 +248,55 @@ nav > div > a{
   margin-top: 10px;
 }
 
+.FormaDePagamento > select{
+  border: none;
+  border-radius: 5px;
+}
+
+.RecebidoeTroco{
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.RecebidoeTroco > input{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.RecebidoeTroco > div{
+  margin-left: 10px;
+}
+
+.CancelareFinalizar{
+  align-items: center;
+  justify-content: center;
+}
+
+.CancelareFinalizar > button{
+  height: 100px;
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.BotaoDeCancelar{
+  background-color: red;
+}
+
+.BotaoDeCancelar:hover{
+  background-color: rgb(149, 1, 1);
+}
+
+.BotaoDeFinalizarVenda{
+  background-color:#39D546;
+}
+
+.BotaoDeFinalizarVenda:hover{
+  background-color:#258d2e;
+}
