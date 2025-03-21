@@ -82,6 +82,8 @@ nav > div > a{
   margin-left: 50px;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  align-items: center; 
 }
 
 .minimenu {
@@ -160,9 +162,88 @@ nav > div > a{
 
 .PaginaDoCarrinho{
   background-color: #BCCAF8;
-  height: 98vh;
+  min-height: 350px;
   width: 1000px;
   margin: auto;
   border-radius: 10px;
   position: relative;
+  justify-content: flex-end;
 }
+
+.lista{
+  background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  min-height: 50px;
+  position: absolute;
+  right: 10px;
+}
+
+.lista > h2{
+  top: 10px;
+  margin-left: 25px;
+  font-family: sans-serif;
+}
+
+.subtitulo{
+  width: 500px;
+  margin-left: 10px;
+}
+
+.BarraDePesquisa{
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.BotaoDePesquisar{
+  background-color: #31c1ff;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.BotaoDePesquisar:hover{
+  background-color: #2594c3;
+}
+
+.CamposeBotoes{
+  flex-direction: column;
+  display: flex;
+}
+
+.BotaoDeAdicionarNoCarrinho{
+  background-color: #31c1ff;
+  height: 35px;
+  width: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.BotaoDeAdicionarNoCarrinho:hover{
+  background-color: #3598c3;
+}
+
+.CamposeBotoes > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.CamposeBotoes > div > h3{
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.FormaDePagamento{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
